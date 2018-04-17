@@ -20,3 +20,12 @@ print "计算和为：",Sn
 
 
 
+a = int(raw_input("a:"))
+n = int(raw_input("n:"))
+list=[]
+for i in range(1,n+1):
+    list.append(int("{}".format(a)*i))
+s = reduce(lambda x,y:x+y, list)
+print list
+print "计算和为：",s
+
