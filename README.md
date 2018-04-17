@@ -29,3 +29,13 @@ s = reduce(lambda x,y:x+y, list)
 print list
 print "计算和为：",s
 
+
+
+
+def calculate(a,n):
+    sum = 0
+    for i in range(1,n+1):
+        x = int(str(a)*i)
+        sum+=x
+    print sum
+calculate(4,4)
